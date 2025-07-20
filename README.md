@@ -1,6 +1,4 @@
-# IPLScorePredictor-2024
-
-**Watch:** https://youtu.be/HipGRw5h-rI
+# IPLSportsAnalysis-2024
 
 This Flask web application predicts the winning probability of a team in an IPL match based on the provided input parameters. It uses a machine learning model trained on historical IPL data to make predictions.
 
@@ -16,7 +14,7 @@ This Flask web application predicts the winning probability of a team in an IPL 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/zep-analytics/IPLScorePredictor-2024.git
+    git clone https://github.com/kondasreekavya/IPL-Sports-Analysis-Project.git
     ```
 
 2. Run the Flask app:
