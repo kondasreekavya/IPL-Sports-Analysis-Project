@@ -15,9 +15,9 @@ y = df.iloc[:,-1]
 x_train,x_test,y_train,y_test = train_test_split(x,y,test_size=0.25,random_state=100)
 
 trf = ColumnTransformer([
-    ('trf',OneHotEncoder(sparse=False,drop='first'),['batting_team','bowling_team','city'])
-],
-remainder='passthrough')
+    ('trf', OneHotEncoder(sparse_output=False, drop='first'), ['batting_team', 'bowling_team', 'city'])
+], remainder='passthrough')
+
 
 ra_pipe = Pipeline([
     ('step1',trf),
